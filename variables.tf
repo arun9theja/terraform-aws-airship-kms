@@ -1,4 +1,8 @@
 variable "name" {
-  type = "string"
+  type        = "string"
   description = "the alias of the key"
+}
+
+variable "path_prepend" {
+  default = "application/"
 }
